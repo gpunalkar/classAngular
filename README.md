@@ -36,9 +36,17 @@ Custom componets include as service. All  are intianted by Angular by default
 a. app.run - one time execute code
 b. app.config - define the route, Provider inject in app.config (ex RouteProvider)
 
+ex:
 http
 http.get 
 http.post 
 
 Some service retuns the functions or objects. Service we need just defined & that will called with inculde.
 Service always retunrns the functionality. 
+
+1. Angular Services are substute . that are wired together using dependency injections.
+2. Services are used to organized & share code across the appp
+3. Angular Service are 
+   a. lessyly intitinal (when it is injected or component depends on it[cotroller directiv])
+   b. Singleton -  each componant refer is single refrence of the service.
+   c. 
