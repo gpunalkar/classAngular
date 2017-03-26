@@ -1,5 +1,6 @@
-# classAngular
-Angular JS Class Notes:
+# Angular JS Class
+
+# Angular JS Class Notes:
 
 # Controllers
 Contorller are use to setup the initial $scope of object & behevior of object.
@@ -26,15 +27,18 @@ Do not use controlles for:
    this variable ate not shared to the nested controllers
 
 # Service
-1. Service as Service
-2. Factory as Service
-3. Provider as Service
+Custom componets include as service. All  are intianted by Angular by default 
+
+1. Service as Service (Private set of function)
+2. Factory as Service  (Private set of Object)
+3. Provider as Service (Angular uses internally)
 
 a. app.run - one time execute code
-b. app.config - define the route 
+b. app.config - define the route, Provider inject in app.config (ex RouteProvider)
 
 http
-http.get
-http.post
+http.get 
+http.post 
 
-some service retuns the functions or objects
+Some service retuns the functions or objects. Service we need just defined & that will called with inculde.
+Service always retunrns the functionality. 
